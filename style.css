@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+
+* {
+    background-color: black;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* * Header * */
+
+header {
+    width: 100%;
+    height: 700px;
+    background-image:linear-gradient(180deg, rgba(0,0,99,0) 0%, rgba(51,168,219,0.2189250700280112) 50%, rgba(9,9,121,0) 100%), url(./assets/images/banner.png);
+    border-bottom: 1px solid #33A8DB;
+    background-size:cover;
+}
+
+.banner-content, .logo, #slogan {
+    width: 510px;
+    background-color: transparent;
+    text-align: center;
+    margin: auto;
+}
+
+#logo-trilha{
+    background-color: rgba(0,0,10,.2);
+    padding: 20px 5px;
+    border-radius: 50%;
+}
+
+.banner-content{
+    padding: 100px 0;
+}
+
+h1 {
+    font-size: 40px;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(#33A8DB,#1472B7);
+    margin: 1rem;
+}
+
+#slogan {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+
+button {
+    padding: 19px 91px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #31A8DD;
+    background-color: transparent;
+    border: 2px solid #33A8DB;
+}
+
+/* * Main * */
+#course-content, #professional-challenges {
+    width: 792px;
+    text-align: center;
+    margin: 100px auto ;
+}
+
+.title{
+    color: #33A8DB;
+    font-size: 32px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+.paragraph, #text-footer {
+    color: white;
+    font-size: 16px;
+}
+
+.module {
+    width: 535px;
+    background-color: #252525;
+    color: white;
+    border: 1px solid #33A8DB;
+    border-radius: 57px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 30px 128.5px;
+    
+}
+
+span{
+    color: #31A8DD;
+    background-color: transparent;
+}
+
+#transform-world{
+    width: 100%;
+    height: 400px;
+    background-image:linear-gradient(180deg, rgba(0,0,99,0) 0%, rgba(51,168,219,0.2189250700280112) 50%, rgba(9,9,121,0) 100%), url(./assets/images/woman-code.png);
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
+    border: 1px solid #33A8DB;    
+}
+
+#title-image{
+    width: 280px;
+    color: white;
+    font-size: 40px;
+    text-shadow: 3px 2px #33A8DB;
+    font-weight: bold;
+    margin: 10% 250px;
+    background-color: transparent;
+    
+}
+
+/* * Footer * */
+footer{
+    height: 170px;
+    background-image: linear-gradient(transparent, rgba(3, 64, 90, 0.219) 40%);
+    border: 1px solid #33A8DB ;
+    background-color: transparent;
+    text-align: center;
+    
+}
+
+#dio-logo{
+    margin-top: 40px;
+}
+
+#dio-logo, #text-footer{
+    background-color: transparent;
+}
+
+#destaque-dio{
+    background-color: transparent;
+    text-decoration: none;
+    color: #31A8DD;
+    font-weight:bold;
+}
